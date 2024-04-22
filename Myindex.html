@@ -7,15 +7,21 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <div class="details">
+        <h1 class="api-provider">Open Weather Map API Project<span>By Walid El Hioul</span></h1>
+        <a href="https://openweathermap.org/current" target="_blank">https://openweathermap.org/current</a>
+    </div>
+    <div class="img">
+        <img src="/openweathericon.png">
+    </div>
 
 <div id="weather-container">
     <h2>Weather App</h2>
-    <!-- Input for city -->
     <input type="text" id="city" placeholder="Enter city" autocomplete="off">
     <div id="city-dropdown" class="dropdown-content"></div>
     <button onclick="getWeather()">Search</button>
 
-    <!-- List to display "City, Country" -->
+    <!-- List to display "Cities, Countries" -->
     <ul id="city-country-list"></ul>
 
     <img id="weather-icon" alt="Weather Icon">
