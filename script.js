@@ -47,7 +47,7 @@ cityInput.addEventListener('input', () => {
 
 // Update getWeather function to use entered city
 function getWeather() {
-    const apiKey = '18dc5ab3ac33cd8f4a4fe0601f4f462d';
+    const apiKey = 'YOUR API KEY';
     const city = document.getElementById('city').value;
 
     if (!city) {
